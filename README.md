@@ -1,5 +1,3 @@
-# MongoDB integration with Express.js
+# mongo_express_quiz
 
-## This is an example of integrating MongoDB with Express.js by creating a simple quiz api
-
-### Follow The Following Steps To Get Started With Your Own Quiz API
+This is an example of integrating MongoDB with Express.js by creating a simple quiz api
