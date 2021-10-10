@@ -1,0 +1,21 @@
+version: "3"
+services:
+  api:
+    image: mongo-express-quiz
+    build: .
+    networks:
+      - backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./:/usr/src/app
+
+  web-cli:
+    image: mongo-express-quiz
+    networks:
+      - backend
+    command: sh
+
+networks:
+  backend:
+    driver: bridge
